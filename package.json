@@ -1,0 +1,10 @@
+{
+  "name": "am-core-code",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'AM Core development environment'",
+    "build": "echo 'AM Core build'",
+    "lint": "echo 'AM Core lint'"
+  }
+}
