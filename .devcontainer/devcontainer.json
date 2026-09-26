@@ -1,0 +1,12 @@
+{
+  "name": "Action = Matter prototype",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm ci --prefix apps/web",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "A=M prototype",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
